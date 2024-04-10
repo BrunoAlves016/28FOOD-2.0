@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link do css-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--IMPORTANDO A FONTE-->
+    <link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
+
+    <title>28Food</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo"><a href="index.html"><img src="img/28foodlogomarca2.svg" width="100px" height="100px"></a>
+        </div>
+        <div class="menu">
+            <a href="doces.html">Doces</a>
+            <a href="salgados.html">Salgados</a>
+            <a href="saladas.html">Saladas</a>
+        </div>
+
+        <div class="social">
+            <a href="facebook.com" class="fb"><img src="ícons/icons8-facebook-24.png"></a>
+            <a href="instagram.com" class="ins"><img src="ícons/icons8-instagram-24.png"></a>
+
+        </div>
+    </div>
+
+    <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar">
+        <input type="submit" value="">
+    </div>
+
+    <div class="a99">
+        <h1>99 ACABOU...NOOOOOOSSAA...AGORA É 28FOOD</h1>
+    </div>
+    <!--BANNER ROTATIVO DE SLIDES-->
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="./img/salgado-pao-de-queijo.jpg" style="width: 1000px; height: 600px;" class="slideimg">
+            <div class="text">PÃO DE QUEIJO</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="./img/salgado-hamburguer.jpeg" style="width: 1000px; height: 600px;" class="slideimg">
+            <div class="text"> HAMBÚRGUER CASEIRO</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="./img/salada-maça.jpg" style="width: 1000px; height: 600px;" class="slideimg">
+            <div class="text"> SALADA DE MAÇA, CENOURA E REPOLHO</div>
+        </div>
+    </div>
+    <br>
+
+    <div style="text-align: center;">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <h1 class="texto-receitas">RECEITAS</h1>
+
+    <!--VAMOS FALAR SOBRE CONTEÚDO OU SEJA CAIXAS DE RECEITAS-->
+    <div class="container-receitas">
+        <div class="receitabox">
+            <a href="receitas/salgados/pao-de-queijo.html" class="rec-texto"><img src="img/salgado-pao-de-queijo.jpg" alt="Coxinha Tremenda" class="receitas-imagem"
+                    height="300px" width="300px"></a>
+            <div class="overlay">
+                PÃO DE QUEIJO
+            </div>
+        </div>
+
+        <div class="receitabox">
+            <a href="receitas/doces/cheesecake-de-morango.html" class="rec-texto"><img src="img/doce-cheesecake-de-morango2.jpeg" alt="Espaguete Dos Deuses"
+                    class="receitas-imagem" height="300px" width="300"></a>
+            <div class="overlay">
+                CHEESECAKE DE MORANGO
+            </div>
+        </div>
+
+        <div class="receitabox">
+            <a href="" class="rec-texto"><img src="img/salada-maça2.jpg" alt="Pão Fofinho" class="receitas-imagem"
+                    height="300px" width="300"></a>
+            <div class="overlay">
+                SALADA DE MAÇA, CENOURA E REPOLHO
+            </div>
+        </div>
+    </div>
+    <!--IMPORTANDO JAVASCRIPT-->
+    <script src="scripts/script.js"></script>
+</body>
+<footer class="rodape">
+    <div class="rodape-container">
+        <main class="map">
+            <h1>Mapa do site</h1>
+            <ul>
+                <li><a href="doces.html">DOCES</a></li>
+                <li><a href="salgados.html">SALGADOS</a></li>
+                <li><a href="saladas.html">SALADAS</a></li>
+                <li><a href="about.html">SOBRE</a></li>
+            </ul>
+            <p>&copy;Todos direitos reservados</p>
+        </main>
+    </div>
+
+</footer>
+</html>
