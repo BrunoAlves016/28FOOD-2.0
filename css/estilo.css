@@ -218,6 +218,20 @@
     font-size: 22px;
     text-decoration: none;
 }
+
+.texto-sobre{
+   background-color: #efb79e;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 40px;
+   color: black;
+   margin: 20px;
+   font-style: italic;
+   width: 1800px;
+   
+}
+.texto-sobre h1{
+    font-size: 50px;
+}
     @keyframes fade {
         from {
             opacity: 0.4;
